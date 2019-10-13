@@ -52,9 +52,12 @@
 
 .navigation a{
     height: 100%;
-    display: table;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
     float: left;
-    padding: 0px 20px;
+    font-family: 'Roboto';
+    padding: 30px 20px;
 }
 
 .navigation a li{
@@ -64,4 +67,133 @@
     color: white;
     font-family: 'Roboto';
     font-size: 15px;
+}
+
+.title{
+    color: black;
+    margin-left: 110px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.picture{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.aboutme{
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 300px;
+    float: none;
+}
+
+.contactname{
+    font-family: 'Roboto';
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.contactname input{
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.contactemail{
+    font-family: 'Roboto';
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.contactemail input{
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.messagebox{
+    font-family: 'Roboto';
+    margin-left: 110px;
+    font-size: 25px;
+}
+
+.messagebox input{
+    font-family: 'Roboto';
+    font-size: 25px;
+    height: 200px;
+    width: 400px;
+}
+
+.submitbox{
+    font-family: 'Roboto';
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.submitbox input{
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.hangman{
+    margin-left: 110px;
+    border: black;
+    float: left;
+}
+
+.hangman h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.rpg{
+    margin-left: 20px;
+    float: left;
+}
+
+.rpg h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.trivia{
+    margin-left: 110px;
+    border: black;
+    float: left;
+}
+
+.trivia h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.info{
+    margin-left: 80px;
+    float: left;
+}
+
+.info h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+.rps{
+    margin-left: 80px;
+    float: left;
+}
+
+.rps h1{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 100;
 }
